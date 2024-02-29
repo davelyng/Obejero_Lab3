@@ -15,7 +15,7 @@ table {
 }
 
 .gradient-bg {
-    background-image: linear-gradient(135deg, #b0c0ec, #17c743);
+    background-image: linear-gradient(135deg, #b0c0ec, #6cf08d);
   }
 
 .animals, .countries, .months, .foods {
