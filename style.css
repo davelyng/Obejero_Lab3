@@ -1,11 +1,68 @@
-table{
-    border-collapse: collapse;
+body {
+    background-color: rgb(225, 239, 253);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 5%;
+    padding: 5%;
 }
-th, td{
-    border: solid rgb(82, 80, 80);
-    padding: 10px;
-    margin: 10px;
+
+table {
+    width: 50%;
 }
-th{
-    background-color: bisque;
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.gradient-bg {
+    background-image: linear-gradient(135deg, #b0c0ec, #17c743);
+  }
+
+.animals, .countries, .months, .foods {
+    text-align: left;
+}
+
+.border {
+    padding: 20px;
+    margin: 20px;
+    border-width: 5px;
+    border-radius: 5px;
+}
+
+.animals {
+    border-style: dotted;
+    border-right-style: ridge;
+    border-left-style: double;
+    border-color: darkblue red darkmagenta orange;
+}
+
+.countries {
+    border-style: dotted;
+    border-right-style: double;
+    border-left-style: ridge;
+    border-color: orange darkmagenta red darkblue;
+}
+
+.months {
+    border-style: solid;
+    border-right-style: double;
+    border-left-style: ridge;
+    border-color: darkmagenta darkblue orange red;
+}
+
+.foods {
+    border-style: solid;
+    border-right-style: ridge;
+    border-left-style: double; 
+    border-color: red orange darkblue darkmagenta;
+}
+
+h2 {
+    margin-top: 0;
+    text-decoration: underline;
+    text-align: center;
+}
+
+p {
+    margin: 0;
 }
